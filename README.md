@@ -10,4 +10,4 @@ Here iam going show some basic and simple ORMS based on Passenger Model Class
        
 2. Select a object or data based on id
 
-    ```Passenger.objects.get(id=...)```
+       Passenger.objects.get(id=...)
