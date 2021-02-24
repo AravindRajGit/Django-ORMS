@@ -4,14 +4,22 @@ Here iam going show some basic and simple ORMS based on Passenger Model Class
 
 <img src="images/Capture.PNG" width="760" height="320">
 
+
+1. Creating Objects
+
+       
+       >>> passengerObj = Paasenger(first_name='Aravind',last_name='Raj')
+       >>> passengerObj.save()
+
+
 1. Select all datas or objects from Model
 
-       Passenger.objects.all()
+       >>>Passenger.objects.all()
        
 2. Select a object or data based on id
 
-       Passenger.objects.get(id=...)
+       >>>Passenger.objects.get(id=...)
 
 3. Delete all objects from model
 
-       Entry.objects.all().delete()
+       >>>Entry.objects.all().delete()
