@@ -7,9 +7,14 @@ Here iam going show some basic and simple ORMS based on Passenger Model Class
 
 1. Creating Objects
 
-       
-       >>> passengerObj = Paasenger(first_name='Aravind',last_name='Raj')
+       Methode-1
+      
+       >>> passengerObj = Passenger(first_name='Aravind',last_name='Raj')
        >>> passengerObj.save()
+       
+       Methode-2
+       
+       >>>Passenger.objects.create(first_name='Aravind',last_name='Raj')
 
 
 1. Select all datas or objects from Model
