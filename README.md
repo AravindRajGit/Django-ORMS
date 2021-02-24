@@ -14,4 +14,4 @@ Here iam going show some basic and simple ORMS based on Passenger Model Class
  
  3.Delete all objects or datas
  
-  Entry.objects.all().delete()
+ `` Entry.objects.all().delete()
