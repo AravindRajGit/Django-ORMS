@@ -1,2 +1,4 @@
 # Django-ORMS
-Important ORMS a Django developer should be know
+
+
+<img src="images/Capture.PNG" width="800" height="350">
