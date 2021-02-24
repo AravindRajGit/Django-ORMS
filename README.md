@@ -6,4 +6,4 @@ Here iam going show some basic and simple ORMS based on Passenger Model Class
 
 1. Select all datas or objects from Model
 
-       ```Passenger.objects.all()```
+       Passenger.objects.all()
